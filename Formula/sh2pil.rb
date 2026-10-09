@@ -1,7 +1,6 @@
 class Sh2pil < Formula
   desc "Terminal session picker for Pi, OpenCode, Claude Code, and Codex"
   homepage "https://github.com/sashkachan/sh2pil"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
