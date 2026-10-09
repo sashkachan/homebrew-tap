@@ -5,23 +5,23 @@ class Sh2pil < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sashkachan/sh2pil/releases/download/v0.1.0/sh2pil_0.1.0_darwin_arm64.tar.gz"
-      sha256 "94190e4000a2c7c4f7cdc1273db0c85ddc04da0b24457da0dd70fea77bd6aa36"
+      url "https://github.com/sashkachan/sh2pil/releases/download/v0.2.0/sh2pil_0.2.0_darwin_arm64.tar.gz"
+      sha256 "911d4614d3c4e71ce730a868f3e96e3a081b598e8be8156773fce110258ed48f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sashkachan/sh2pil/releases/download/v0.1.0/sh2pil_0.1.0_linux_amd64.tar.gz"
-      sha256 "3a7dc90f5ac66f24c0f467b360850643484d39886d6356372b5e058018fd499c"
+      url "https://github.com/sashkachan/sh2pil/releases/download/v0.2.0/sh2pil_0.2.0_linux_amd64.tar.gz"
+      sha256 "0640a2827c16970b6aa307c4e016a38bc5b1c029379dfb061250f6c84fa8c764"
     end
   end
 
   def install
     bin.install "sh2pil"
-    bin.install "helpers/pib" => "pib"
-    bin.install "helpers/pib-open" => "pib-open"
-    bin.install "helpers/pi-last" => "pi-last"
+    bin.install "helpers/sh2pil-sessions"
+    bin.install "helpers/sh2pil-open"
+    bin.install "helpers/sh2pil-last"
     (share/"sh2pil").install "config.example.yaml"
   end
 
