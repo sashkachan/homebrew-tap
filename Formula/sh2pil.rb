@@ -5,15 +5,15 @@ class Sh2pil < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/sashkachan/sh2pil/releases/download/v0.6.0/sh2pil_0.6.0_darwin_arm64.tar.gz"
-      sha256 "33ce18943d9b145148333bfb7dc73da8394488dec97fbf340b7778d69ce1f0cf"
+      url "https://github.com/sashkachan/sh2pil/releases/download/v0.6.1/sh2pil_0.6.1_darwin_arm64.tar.gz"
+      sha256 "bc3ab7c26aa4bf5e8b8e52a8d494dbd24a8b84b7a923e33e9aa9ff85beac0d61"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sashkachan/sh2pil/releases/download/v0.6.0/sh2pil_0.6.0_linux_amd64.tar.gz"
-      sha256 "b6849de32e767b987f3140d5a32fedeb33c0eec931b613d1e7fa53678829d6c5"
+      url "https://github.com/sashkachan/sh2pil/releases/download/v0.6.1/sh2pil_0.6.1_linux_amd64.tar.gz"
+      sha256 "e5ee43fa70b166812e3673de965f4890e7df20f1198c6a77c8fff604eb796679"
     end
   end
 
